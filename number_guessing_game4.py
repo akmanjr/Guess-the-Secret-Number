@@ -31,7 +31,7 @@ computerScore = 0
 
 #Set up the game loop
 while playGame:
-	randomNumber = random.randint(1, 10)
+	randomNumber = random.randint(1, 25)
 	userGuess = eval(input("Please take a guess: "))
 	numberOfGuesses = 1
 
